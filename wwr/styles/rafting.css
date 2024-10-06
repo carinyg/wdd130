@@ -1,0 +1,68 @@
+:root {
+    --primary-color: #618985;
+    --secondary-color: #f2e3bc;
+    --accent_1-color: #414535;
+    --accent_2-color: #c19875;
+    --padding: 1rem;
+    --border: 1px solid rgba(0,0,0,0.1);
+}
+
+body {
+    font-family: "Permanent Marker", "Bradley Hand", cursive;
+    font-family: "Afacad Flux", arial, sans-serif;
+}
+
+h1 {
+    position: absolute;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-family: "Permanent Marker", "Bradley Hand", cursive;
+}
+
+h2 {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-family: "Permanent Marker", "Bradley Hand", cursive;
+}
+
+p {
+    background-color: var(--accent_2-color);
+    color: var(--accent_1-color);
+    font-family: "Afacad Flux", arial, sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+div {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+article {
+    position: absolute;
+    background-color: var(--accent_2-color);
+    opacity: 0.5;
+}
+
+article img {
+    float: right;
+}
