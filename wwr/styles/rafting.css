@@ -25,8 +25,12 @@ header img {
     margin: 10px;
 }
 
-button {
+a {
+    background-color: var(--primary-color);
+    padding: 8px;
     margin: 15px;
+    text-decoration: none;
+    color: var(--accent_2-color);
 }
 
 header nav {
@@ -122,18 +126,19 @@ div {
 }
 
 .history-1 {
+    color: var(--primary-color);
     grid-column: 2 / 3;
     grid-row: 3;
 }
 
 .history-2 {
+    color: var(--primary-color);
     grid-column: 4 / 5;
     grid-row: 3;
 }
 
 figcaption {
     color: val(--accent_2-color);
-    justify: center;
 }
 
 .adventure h2 {
