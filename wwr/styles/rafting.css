@@ -138,7 +138,7 @@ div {
 }
 
 figcaption {
-    color: val(--accent_2-color);
+    color: var(--accent_2-color);
 }
 
 .adventure h2 {
