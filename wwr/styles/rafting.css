@@ -93,7 +93,6 @@ div {
 .hero p {
     background-color: var(--secondary-color);
     color: var(--accent_2-color);
-    opacity: 80%;
     grid-column: 1;
     z-index: 1;
     padding: 1px 150px;
