@@ -95,7 +95,7 @@ div {
     color: var(--accent_2-color);
     grid-column: 1;
     z-index: 1;
-    padding: 1px 150px;
+    padding: 10px 150px;
 }
 .hero article img {
     width: 150px;
